@@ -8,7 +8,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Step Steps:
 
 1. Add cloudflare worker app.
-2. Setup firebase DB
+2. Setup firebase DB (Dont forget the firebase-admin private-key)
 
 Last Step: run the development server:
 
