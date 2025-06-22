@@ -1,11 +1,11 @@
-import { Button } from "./components/ui/button";
+import { ArrowLeftCircle } from "lucide-react";
 
 export default function Home() {
   return (
     <div >
-      <main>
-       <h1>This is a AI powered Notion Clone</h1>
-       <Button>Click me</Button>
+      <main className="flex space-x-2 items-center animate-pulse">
+       <ArrowLeftCircle className="w-12 h-12"/>
+       <h1>Get started with creating a new Document</h1>
       </main>
     </div>
   );

@@ -14,7 +14,7 @@ import {
     SheetHeader,
     SheetTitle,
     SheetTrigger,
-} from "@/app/components/ui/sheet"
+} from "@/components/ui/sheet"
 import NewDocumentButton from "./NewDocumentButton";
 import SidebarOption from "./SidebarOption";
 
