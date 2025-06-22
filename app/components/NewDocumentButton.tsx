@@ -19,7 +19,7 @@ function NewDocumentButton() {
 
   return (
     <Button onClick={handleCreateNewDocument} disabled={isPending}>
-      {isPending ? <Loader2 className="w-4 h-4 animate-spin" /> : "New Document"}
+      {isPending ? <><Loader2 className="w-4 h-4 animate-spin" />Creating...</> : "New Document"}
     </Button>
   )
 }
